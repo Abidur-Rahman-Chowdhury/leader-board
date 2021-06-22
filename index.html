@@ -5,12 +5,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Leader Board</title>
 </head>
 
 <body>
-    <h2>hello</h2>
+    <header style="background: #562EFF;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="brand-logo" src="./images/Icon/Group 5.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="./images/profile/profile.png" alt=""></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main mx-auto mt-5">
+        <section class="container-fluid top-player">
+            <h3 style="color: #562EFF;">Top Player</h3>
+            <div class="row mt-4">
+                <div class="col-md-4 col-sm-6  player d-flex align-items-center  pb-5">
+                    <img src="./images/profile/profile-1.png" alt="">
+                    <p class=" ps-3">Pro Rasel</p>
+                </div>
+                <div class="col-md-4 col-sm-6  player d-flex align-items-center  pb-5">
+
+                    <img src="./images/profile/profile-2.png" alt="">
+                    <p class=" ps-3">Maruf Ahmed</p>
+                </div>
+                <div class="col-md-4 col-sm-6  player d-flex align-items-center  pb-5">
+                    <img src="./images/profile/profile-3.png" alt="">
+                    <p class=" ps-3">Abu Sufian</p>
+
+                </div>
+
+                <div class="col-md-4 col-sm-6  player d-flex align-items-center pb-5">
+                    <img src="./images/profile/profile-4.png" alt="">
+                    <p class=" ps-3">Mujahid</p>
+                </div>
+                <div class="col-md-4 col-sm-6  player d-flex align-items-center  pb-5">
+
+                    <img src="./images/profile/profile-5.png" alt="">
+                    <p class=" ps-3">Shajedul Karim</p>
+                </div>
+                <div class="col-md-4 col-sm-6  player d-flex align-items-center  pb-5">
+                    <img src="./images/profile/profile.png" alt="">
+                    <p class=" ps-3">John Smith</p>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
